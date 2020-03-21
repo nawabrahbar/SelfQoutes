@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "142892708492",
+    "firebase_url": "https://selfqoutes-d8c77.firebaseio.com",
+    "project_id": "selfqoutes-d8c77",
+    "storage_bucket": "selfqoutes-d8c77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142892708492:android:ab71dca0c55666034a81a9",
+        "android_client_info": {
+          "package_name": "com.aaen.selfqoutes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142892708492-8b9i2vb9qjefs5a5pdov099fasg8e02o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aaen.selfqoutes",
+            "certificate_hash": "432967c2d2d01b860f7212553cb2b021fde04874"
+          }
+        },
+        {
+          "client_id": "142892708492-ratt17f8qt2dskd7lvpfmphdc23vss42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8G-yQz9F0wONcXSPOlzpO1q_vTTwG1Ek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142892708492-ratt17f8qt2dskd7lvpfmphdc23vss42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

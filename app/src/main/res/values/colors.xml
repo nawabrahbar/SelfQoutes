@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B3C4FF</color>
+    <color name="colorPrimaryDark">#678FFF</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="splash_heading">#EFEFF8</color>
+    <color name="choose_button_text">#678FFF</color>
+    <color name="hint_text">#B3C4FF</color>
+</resources>

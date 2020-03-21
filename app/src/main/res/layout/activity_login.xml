@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Activity.LoginActivity">
+
+    <AutoCompleteTextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColorHint="@color/hint_text"
+        android:fontFamily="@font/athiti_medium"
+        android:layout_above="@+id/password"
+        android:background="@drawable/edit_text_background"
+        android:drawableStart="@drawable/ic_mail_outline_black_24dp"
+        android:drawablePadding="20dp"
+        android:hint="@string/email"
+        android:nextFocusForward="@+id/password"
+        android:text="@string/nawab_gmail_com"
+        android:textColor="@color/choose_button_text"
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@id/login"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/athiti_medium"
+        android:textColorHint="@color/hint_text"
+        android:background="@drawable/edit_text_background"
+        android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+        android:drawablePadding="20dp"
+        android:text="@string/jigar"
+        android:textColor="@color/choose_button_text"
+        android:hint="@string/password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/login"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:layout_above="@+id/createAccount"
+        android:fontFamily="@font/athiti_medium"
+        android:shadowColor="@android:color/background_dark"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="@color/choose_button_text"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/createAccount"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/athiti_medium"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:shadowColor="@android:color/background_dark"
+        android:text="@string/create_account"
+        android:textAllCaps="false"
+        android:textColor="@color/choose_button_text"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>

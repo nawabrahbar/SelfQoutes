@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/athiti_medium"
+        android:text="@string/user_name"
+        android:textAllCaps="true"
+        android:textColor="@color/choose_button_text"
+        android:textDirection="firstStrong"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/userId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userName"
+        android:layout_marginStart="15dp"
+        android:fontFamily="@font/athiti_medium"
+        android:text="@string/user_id"
+        android:textAllCaps="true"
+        android:textColor="@color/choose_button_text"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/wallJournal"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/userId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/wallpaper"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[9]" />
+
+    <ImageView
+        android:id="@+id/cameraJournal2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/userId"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/gallery_icon"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <ImageView
+        android:id="@+id/cameraJournal"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/userId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/gallery_icon"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/wallJournal"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/edit_text_background"
+        android:drawableStart="@drawable/ic_title_black_24dp"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/athiti_medium"
+        android:hint="@string/title"
+        android:importantForAutofill="no"
+        android:inputType="textCapWords"
+        android:padding="10dp"
+        android:textColor="@color/choose_button_text"
+        android:textColorHint="@color/hint_text" />
+
+    <EditText
+        android:id="@+id/thought"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/title"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/edit_text_background"
+        android:drawableStart="@drawable/ic_description_black_24dp"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/athiti_medium"
+        android:hint="@string/thought"
+        android:importantForAutofill="no"
+        android:inputType="textCapSentences"
+        android:padding="10dp"
+        android:textColor="@color/choose_button_text"
+        android:textColorHint="@color/hint_text" />
+
+    <Button
+        android:id="@+id/saveJournal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/transparent"
+        android:text="@string/save"
+        android:textAllCaps="true"
+        android:textColor="@color/choose_button_text"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

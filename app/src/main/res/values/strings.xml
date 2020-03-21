@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SelfQoutes</string>
+    <string name="selfquotes">&quot;SelfQuotes&quot;</string>
+    <string name="we_ll_show_to_world_what_you_think">We\'ll show to world what you think</string>
+    <string name="login">LogIn</string>
+    <string name="signup">SignUp</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account ?</string>
+    <string name="name">Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="have_account_want_to_login">Have Account !! want to LogIn.</string>
+    <string name="gallery_icon">gallery_icon</string>
+    <string name="wallpaper">wallpaper</string>
+    <string name="save">Save</string>
+    <string name="user_name">User Name</string>
+    <string name="user_id">User Id</string>
+    <string name="title">Title</string>
+    <string name="thought">Thought</string>
+    <string name="nawab_gmail_com">nawab@gmail.com</string>
+    <string name="jigar">jigaraasiya2</string>
+    <string name="menu_title">Menu Title</string>
+    <string name="sign_out">Sign out</string>
+    <string name="write_a_journal">Write a journal by click + icon</string>
+    <string name="image">Image</string>
+    <string name="date_created">Date created</string>
+    <string name="share">share</string>
+</resources>

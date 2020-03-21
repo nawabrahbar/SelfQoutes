@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Activity.SignupActivity">
+
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/mobileNumber"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_background"
+        android:fontFamily="@font/athiti_medium"
+        android:drawableStart="@drawable/ic_person_outline_black_24dp"
+        android:drawablePadding="20dp"
+        android:hint="@string/name"
+        android:importantForAutofill="no"
+        android:inputType="textCapWords"
+        android:padding="10dp"
+        android:textColor="@color/choose_button_text"
+        android:textColorHint="@color/hint_text" />
+
+    <EditText
+        android:id="@+id/mobileNumber"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/athiti_medium"
+        android:layout_height="50dp"
+        android:layout_above="@+id/email"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_background"
+        android:drawableStart="@drawable/ic_phone_android_black_24dp"
+        android:drawablePadding="20dp"
+        android:hint="@string/mobile"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColor="@color/choose_button_text"
+        android:textColorHint="@color/hint_text" />
+
+    <AutoCompleteTextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/password"
+        android:background="@drawable/edit_text_background"
+        android:fontFamily="@font/athiti_medium"
+        android:drawableStart="@drawable/ic_mail_outline_black_24dp"
+        android:drawablePadding="20dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="@color/choose_button_text"
+        android:textColorHint="@color/hint_text" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@id/signup"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_background"
+        android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/athiti_medium"
+        android:hint="@string/password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/choose_button_text"
+        android:textColorHint="@color/hint_text" />
+
+    <Button
+        android:id="@+id/signup"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/createAccount"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:shadowColor="@android:color/background_dark"
+        android:fontFamily="@font/athiti_medium"
+        android:text="@string/signup"
+        android:textAllCaps="false"
+        android:textColor="@color/choose_button_text"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/createAccount"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/athiti_medium"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:shadowColor="@android:color/background_dark"
+        android:text="@string/have_account_want_to_login"
+        android:textAllCaps="false"
+        android:textColor="@color/choose_button_text"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

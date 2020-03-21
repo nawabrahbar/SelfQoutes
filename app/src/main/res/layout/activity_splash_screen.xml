@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_screen_gradient"
+    tools:context=".Activity.SplashScreenActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/selfquotes"
+        android:textSize="30sp"
+        android:textColor="@color/splash_heading"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/heading"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/we_ll_show_to_world_what_you_think"
+        android:textSize="14sp"
+        android:textColor="@color/splash_heading"
+        android:textStyle="bold" />
+
+</RelativeLayout>
